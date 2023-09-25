@@ -51,7 +51,7 @@ first_name = "Jeff"
 puts first_name.start_with?("J")
 
 # In this example the method .squeeze is called on the variable `vacation_destination`
-# The .squeeze method removes reduces double characters down to only one
+# The .squeeze method removes and reduces double characters down to only one character per set
 # The return for this method is "Misisipi"
 vacation_destination = "Mississippi"
 vacation_destination.squeeze
@@ -76,7 +76,7 @@ money_in_da_bank = 1456788234898598392834
 money_in_da_bank.to_s
 
 # In this example the method `digits` is called on the variable `gallons_of_milk`
-# The `digits` method returns an array of the digits included in the integer from highest to lowest
+# The `digits` method returns an array of the digits included in the integer
 # The return value of `gallons_of_milk` is [5, 2, 4, 1]
 gallons_of_milk = 1425
 gallons_of_milk.digits
@@ -90,7 +90,7 @@ gallons_of_milk.digits
 # In this example the method `.count` was used on the variable `friends` 
 # which includes an array of five string ojects
 # This method counts the number of elements in the array and returns that value 
-
+# The return value of this particular method is 5 
 friends = ["Jeff", "Pat", "Matt", "Gabby", "Lynzie"]
 friends.count
 

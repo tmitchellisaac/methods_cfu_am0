@@ -27,7 +27,7 @@ puts "Oh its you! #{hello}"
 # How many arguments did you pass your method?
 # I passed one argument in this method at a time
 # What data type was your argument(s)?
-# My data type was an integer, both times
+# My data type was a string, both times
 
 def custom_greeting(name)
     "Oh hey, it's you #{name}!"
